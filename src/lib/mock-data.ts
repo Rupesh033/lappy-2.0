@@ -65,6 +65,7 @@ export const STORE_INFO = {
   tagline: "Technology, chosen better.",
   legalName: "LAPPY SOLUTION IT RETAIL & SERVICES",
   phone: "9608828288",
+  altPhone: "8789320315",
   upiId: "8789320315@ptsbi",
   address: "In front of G P Plaza, Chiniya Road, Garhwa, Jharkhand 822114",
   email: "lappysolution2018@gmail.com",

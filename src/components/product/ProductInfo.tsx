@@ -178,13 +178,13 @@ export function ProductInfo({ product }: ProductInfoProps) {
         </div>
         <div className="flex flex-col items-center justify-center gap-1.5 p-1 border-x border-line">
           <RefreshCw className="w-4 h-4 text-sage stroke-[1.75]" />
-          <span className="text-[11px] text-ink font-medium leading-tight">7-Day DOA Replacement</span>
-          <span className="text-[9px] text-muted">Hassle-free guarantee</span>
+          <span className="text-[11px] text-ink font-medium leading-tight">18% GST Invoicing</span>
+          <span className="text-[9px] text-muted">Full ITC eligible</span>
         </div>
         <div className="flex flex-col items-center justify-center gap-1.5 p-1">
           <ShieldCheck className="w-4 h-4 text-gold stroke-[1.75]" />
-          <span className="text-[11px] text-ink font-medium leading-tight">Official Warranty</span>
-          <span className="text-[9px] text-muted">Brand certified</span>
+          <span className="text-[11px] text-ink font-medium leading-tight">100% Genuine</span>
+          <span className="text-[9px] text-muted">Brand sealed pack</span>
         </div>
       </div>
 

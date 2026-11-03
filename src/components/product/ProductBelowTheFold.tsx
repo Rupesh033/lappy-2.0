@@ -42,12 +42,12 @@ export function ProductBelowTheFold({ product }: ProductBelowTheFoldProps) {
           a: "Yes! Every printer arrives sealed in original manufacturer packaging with full starter ink bottles or toner cartridges included, ready for instant plug-and-play setup.",
         },
         {
-          q: "How does the official brand manufacturer warranty work in India?",
-          a: `This unit carries a 1-Year official manufacturer warranty valid across authorized ${product.brand} service centers across India. LAPPY SOLUTION also provides local technical setup support.`,
+          q: "How is the printer packaged for safe all-India delivery?",
+          a: `Every printer is shipped with heavy-duty multi-layer shockproof packing and insured transit via BlueDart & Speed Post Air across India.`,
         },
         {
-          q: "What is LAPPY's 7-Day transit safety & replacement policy?",
-          a: "If your printer arrives damaged in transit or displays any technical malfunction within 7 days of delivery, our team arranges immediate priority replacement.",
+          q: "Can I get an official 18% GST invoice with company GSTIN?",
+          a: "Yes, enter your GSTIN during checkout and we issue a full tax-compliant B2B tax invoice with matching HSN code.",
         },
       ]
     : [
@@ -56,12 +56,12 @@ export function ProductBelowTheFold({ product }: ProductBelowTheFoldProps) {
           a: "Yes, 100%. LAPPY issues a tax-compliant GST e-invoice with your company's GSTIN and legal business name, allowing full 18% input credit against your output liabilities.",
         },
         {
-          q: "How does the official brand manufacturer warranty work in India?",
-          a: "This unit carries genuine brand manufacturer warranty valid at all official authorized service centers across India. Serial numbers are registered upon billing with the respective brand.",
+          q: "How is the hardware tested before dispatch?",
+          a: "Every unit undergoes strict multi-point technical bench checks for display clarity, keyboard responsiveness, battery health, and genuine Windows activation.",
         },
         {
-          q: "What is LAPPY's 7-Day Dead-On-Arrival (DOA) replacement policy?",
-          a: "If your machine arrives damaged in transit or develops a hardware malfunction within 7 days of delivery, our concierge arranges immediate pickup and priority replacement with zero hassle.",
+          q: "How is safe pan-India shipping handled?",
+          a: "All shipments are protected with tamper-evident insured seals and dispatched via leading express couriers with live tracking SMS updates.",
         },
         {
           q: "Can I upgrade RAM or NVMe storage after purchase?",
@@ -131,14 +131,14 @@ export function ProductBelowTheFold({ product }: ProductBelowTheFoldProps) {
           </ul>
         </div>
 
-        {/* Warranty & Care */}
+        {/* Store Quality Verification & GST Invoicing */}
         <div className="p-8 rounded-lg bg-surface border border-line flex flex-col">
           <div className="flex items-center gap-3 mb-6">
             <Shield className="w-5 h-5 text-gold stroke-[1.75]" />
-            <h3 className="font-display text-lg text-ink">Certified Warranty</h3>
+            <h3 className="font-display text-lg text-ink">Store Quality Verification</h3>
           </div>
           <p className="text-sm text-muted font-sans leading-relaxed mb-6">
-            {product.warranty}
+            100% factory authentic hardware inspected by LAPPY SOLUTION hardware engineers with verified serial authenticity, genuine OS, and full 18% GST tax invoice.
           </p>
           <div className="pt-6 border-t border-line text-xs font-mono text-muted space-y-1.5 mt-auto">
             <p className="text-ink font-medium">LAPPY SOLUTION Retail Care</p>
