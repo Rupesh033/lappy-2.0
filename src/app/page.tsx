@@ -73,7 +73,7 @@ export default function HomePage() {
         id="laptops-rail"
         eyebrow="Curated Selection"
         title="Laptops & Mobile Workstations"
-        description="Certified Core i5/i7 business laptops and desktop setups with genuine OS & accessories."
+        description="Certified Core i5/i7 business laptops and desktop setups with full store warranty."
         products={computingUnits.length > 0 ? computingUnits : PRODUCTS.slice(0, 5)}
         viewAllHref="/category/laptops-computers"
         bgLight={true}

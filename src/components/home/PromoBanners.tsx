@@ -39,7 +39,7 @@ export function PromoBanners() {
                 Business Laptops &amp; Mobile Workstations
               </h3>
               <p className="text-white/80 text-xs sm:text-sm line-clamp-2 mb-4 font-normal">
-                Lenovo ThinkPad, Dell Latitude &amp; HP EliteBook. Pre-inspected hardware with 18% GST Invoice &amp; activated Windows.
+                Lenovo ThinkPad, Dell Latitude &amp; HP EliteBook. Pre-inspected hardware with 1-Year Warranty &amp; activated Windows.
               </p>
               <div className="inline-flex items-center gap-2 text-xs font-extrabold text-white group-hover:translate-x-1 transition-transform">
                 <span className="bg-[#0066B3] px-4 py-2 rounded-xl">Shop Laptops Now</span>

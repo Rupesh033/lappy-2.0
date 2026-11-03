@@ -97,7 +97,7 @@ export function Header() {
             <Sparkles className="w-3.5 h-3.5 text-[#D4A93A]" /> 10% OFF ON PREPAID &amp; UPI
           </span>
           <span className="flex items-center gap-2 text-[#667085]">
-            <Package className="w-3.5 h-3.5 text-[#0066B3]" /> VERIFIED 18% GST INVOICE
+            <Package className="w-3.5 h-3.5 text-[#0066B3]" /> 7-DAY REPLACEMENT GUARANTEE
           </span>
         </div>
       </div>
@@ -209,14 +209,6 @@ export function Header() {
               className="px-3.5 py-2 text-sm font-semibold text-[#172033] hover:text-[#0066B3] hover:bg-[#FAF8F3] transition-colors rounded-lg font-outfit"
             >
               Wholesale
-            </Link>
-
-            <Link
-              href="/admin/banners"
-              className="px-3.5 py-2 text-sm font-semibold text-[#0066B3] hover:bg-[#FAF8F3] transition-colors rounded-lg font-outfit flex items-center gap-1.5"
-            >
-              <span>Banners</span>
-              <span className="text-[9px] bg-[#D4A93A] text-[#071A33] font-extrabold px-1.5 py-0.2 rounded">Admin</span>
             </Link>
 
             <Link
@@ -408,24 +400,6 @@ export function Header() {
                   <span className="text-[#667085] font-normal">({cat.itemCount})</span>
                 </Link>
               ))}
-            </div>
-            <div className="pt-2 flex flex-col gap-2 border-t border-[#E7E4DD] text-xs">
-              <Link
-                href="/admin/banners"
-                onClick={() => setIsMobileMenuOpen(false)}
-                className="flex items-center justify-between text-[#0066B3] font-bold py-1"
-              >
-                <span>🖼️ Banner Manager (Phone &amp; PC)</span>
-                <span className="text-[10px] bg-[#D4A93A] text-[#071A33] px-2 py-0.5 rounded font-extrabold uppercase">Admin</span>
-              </Link>
-              <Link
-                href="/admin/orders"
-                onClick={() => setIsMobileMenuOpen(false)}
-                className="flex items-center justify-between text-[#071A33] font-semibold py-1"
-              >
-                <span>📦 Orders &amp; Settlement Desk</span>
-                <span>&rarr;</span>
-              </Link>
             </div>
             <div className="pt-2 flex justify-between text-xs text-[#667085]">
               <span>Garhwa Store Facility</span>

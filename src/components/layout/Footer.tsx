@@ -1,22 +1,14 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import { Mail, Truck, RotateCcw, ShieldCheck } from "lucide-react";
 import { useToastStore } from "@/store/toastStore";
 import { STORE_INFO } from "@/lib/mock-data";
-import { useSettingsStore } from "@/store/settingsStore";
 
 export function Footer() {
   const [email, setEmail] = useState("");
   const { addToast } = useToastStore();
-  const { settings } = useSettingsStore();
-
-  useEffect(() => {
-    useSettingsStore.persist.rehydrate();
-  }, []);
-
-  const phone = settings?.phone || STORE_INFO.phone;
 
   const handleSubscribe = (e: React.FormEvent) => {
     e.preventDefault();
@@ -90,7 +82,7 @@ export function Footer() {
               </p>
               <div className="text-[11px] text-[#B8C1CC]/80 font-mono space-y-1">
                 <p>{STORE_INFO.address}</p>
-                <p>Phone: +91 {phone}</p>
+                <p>Phone: +91 {STORE_INFO.phone}</p>
               </div>
             </div>
 
@@ -151,7 +143,7 @@ export function Footer() {
               <ul className="space-y-3 text-xs">
                 <li>
                   <a
-                    href={`https://wa.me/91${phone}`}
+                    href={`https://wa.me/91${STORE_INFO.phone}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-[#E5E7EB] hover:text-[#D4A93A] transition-colors"
@@ -172,7 +164,7 @@ export function Footer() {
                     href="/category/laptops-computers"
                     className="text-[#E5E7EB] hover:text-[#D4A93A] transition-colors"
                   >
-                    Garhwa Store Facility
+                    Exchange &amp; Replacement
                   </Link>
                 </li>
                 <li>
@@ -235,8 +227,8 @@ export function Footer() {
                   <RotateCcw className="w-4 h-4 stroke-[1.8]" />
                 </div>
                 <div>
-                  <p className="text-xs font-bold text-[#FFFFFF] font-outfit">Quality Verified</p>
-                  <p className="text-[10px] text-[#B8C1CC]">Bench Inspected Silicon</p>
+                  <p className="text-xs font-bold text-[#FFFFFF] font-outfit">7-Day Replacement</p>
+                  <p className="text-[10px] text-[#B8C1CC]">Hardware Bench Warranty</p>
                 </div>
               </div>
 

@@ -48,7 +48,7 @@ export default function RootLayout({
     logo: "https://lappy.in/logo.png",
     contactPoint: {
       "@type": "ContactPoint",
-      telephone: "+91-9608828288",
+      telephone: "+91-800-000-5277",
       contactType: "customer service",
       areaServed: "IN",
       availableLanguage: ["English", "Hindi"],

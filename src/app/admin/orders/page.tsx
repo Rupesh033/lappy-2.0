@@ -5,7 +5,6 @@ import { useOrders, Order } from "@/store/orderStore";
 import { formatINR } from "@/lib/utils";
 import { Check, X, ShieldCheck, Clock, CheckCircle2, XCircle } from "lucide-react";
 import { useToastStore } from "@/store/toastStore";
-import { AdminNav } from "@/components/admin/AdminNav";
 
 export default function AdminOrdersPage() {
   const { orders, verifyOrder, failOrder } = useOrders();
@@ -31,9 +30,7 @@ export default function AdminOrdersPage() {
   };
 
   return (
-    <div className="min-h-screen bg-[#FAF8F3]">
-      <AdminNav />
-      <div className="max-w-[1200px] mx-auto px-4 md:px-8 py-10 md:py-16">
+    <div className="max-w-[1200px] mx-auto px-4 md:px-8 py-12 md:py-20">
       {/* Page Header */}
       <div className="flex flex-col md:flex-row md:items-end justify-between pb-6 border-b border-line gap-4 mb-8">
         <div>
@@ -186,6 +183,5 @@ export default function AdminOrdersPage() {
         </span>
       </div>
     </div>
-  </div>
   );
 }
